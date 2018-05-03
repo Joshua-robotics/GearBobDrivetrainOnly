@@ -106,7 +106,7 @@ public class Drivetrain extends Subsystem {
 	public double track() {
 		double moveValue;
 		if (area < 90.0 && area > 0.0) {
-			moveValue = -0.3 / area;
+			moveValue = -0.1 / area;
 		} else {
 			moveValue = 0.0;
 		}
